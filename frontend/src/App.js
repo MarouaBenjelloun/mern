@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 function App() {
-  // Un état pour stocker les données de ton futur Backend
-  const [message, setMessage] = useState("En attente du backend...");
+  // On garde uniquement la variable 'message' pour l'affichage
+  const [message] = useState("En attente du backend...");
 
   return (
     <div className="App">
